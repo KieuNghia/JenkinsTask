@@ -15,7 +15,7 @@ public class Main {
         String time = ""+  calendar.get(Calendar.HOUR) +":"+ calendar.get(Calendar.MINUTE)+"";
         FileOutputStream fos = new FileOutputStream("File" +time+".txt");
         fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
-        System.out.println("File created");
+        System.out.println("File "+time+"  created");
     }
 }
 
