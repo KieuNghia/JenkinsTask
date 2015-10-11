@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JenkinsTask:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JenkinsTask_jar</output-path>
+    <root id="archive" name="JenkinsTask.jar">
+      <element id="module-output" name="JenkinsTask" />
+    </root>
+  </artifact>
+</component>
