@@ -13,6 +13,7 @@ public class Main {
         FileOutputStream fos = new FileOutputStream("File.txt");
         fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
         System.out.println("File created");
+        System.out.println("Changed");
     }
 }
 
